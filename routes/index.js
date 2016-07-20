@@ -8,6 +8,10 @@ router.get('/', function(req, res, next) {
 
 router.get('/dog', function(req, res, next) {
   res.send("Woof, I'm a dog, after Mike branched");
+};
+
+router.get('/cat', function(req, res, next) {
+  res.send('cat');
 });
 
 module.exports = router;
